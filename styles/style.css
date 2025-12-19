@@ -17,14 +17,6 @@
     }
 }
 
-@supports (-webkit-text-stroke: 1px var(--stroke-color)) or (text-stroke: 1px var(--stroke-color)) {
-    .card__image-label {
-        text-stroke: 1px var(--stroke-color);
-        -webkit-text-stroke: 1px var(--stroke-color);
-        text-shadow: none;
-    }
-}
-
 
 * {
     margin: 0;
